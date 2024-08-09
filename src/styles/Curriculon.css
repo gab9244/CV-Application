@@ -1,0 +1,73 @@
+#curriculo {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    width: 40%;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-size: 18px;
+    min-height: 90vh;
+}
+
+#personalInfo {
+    display: flex;
+    gap: 20px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 20px;
+    margin-left: 100px;
+    
+
+}
+section h3 {
+   text-align: center;
+   color: rgb(17, 19, 167);
+} 
+ul {
+
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.info h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#personInfo {
+    display: flex;
+    flex-direction: column;
+}
+#userName {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#personInfo ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#aboutBox {
+    word-wrap: break-word;
+    max-width: 400px;
+}
+
+#experience {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+}
+
+.workInfoSection {
+    margin-top: 10px;
+}

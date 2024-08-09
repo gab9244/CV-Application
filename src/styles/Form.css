@@ -1,0 +1,133 @@
+form {
+  position: relative;
+  border-radius: 10px;
+  padding: 40px;
+  margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 30%;
+}
+
+form h2 {
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  border-radius: 5px;
+  font-size: 18px;
+  height: 10px;
+  background-color: beige;
+  border: none;
+  padding: 15px;
+}
+
+#buttonId {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 20px;
+}
+
+#buttonId button {
+  width: 40%;
+  padding: 10px;
+  background-color: green;
+  border: none;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+.invisible {
+  display: none;
+}
+
+#aboutLabel {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px;
+}
+
+#about {
+  height: 100px;
+}
+
+.fa-solid {
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.userHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.plusButton:active {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+label p {
+  margin-top: 20px;
+}
+
+label h2 {
+  margin: 20px;
+}
+
+
+.userWorkExperience {
+    transition: 1s ;
+}
+ .show {
+/*  Fazer com que altura fique em auto faz com que ela seja igual ao que ela já era */
+    height: auto; 
+    /* Opacidade normal */
+    opacity: 1;
+    /* Retorna ao normal */
+    transform: translateY(0);
+    /* Define o tempo de duração da transformação */
+    transition-duration: .5s;
+    /* Faz com que o elemento fique visivel, mas diferente de display:none, visibility apenas alterar a aparencia e não remove o elemento */
+    visibility: visible;
+
+ }
+.hide {
+    /* Fazer com que o height seja 0 remove sua existencia do projetp */
+    height: 0;
+    /* Faz com que fique sem opacidade */
+    opacity: 0;
+    /* Dar o efeito de ir para baixo */
+    transform: translateY(-25px);
+    /* Faz com que a transformação de ir para baixo tenha origem da parte de cima */
+    transform-origin: top;
+    /* Remove o visual do elemento */
+    visibility: hidden;
+
+    width: 100%;
+    z-index: 2;
+
+
+
+
+}
+
+.saveDiv {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.saveButton {
+    background-color: rgb(12, 175, 224);
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+
+}
